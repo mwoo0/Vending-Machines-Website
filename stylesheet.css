@@ -53,6 +53,10 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li:last-child {
+    padding-left: 20px;
+}
+
 .button {
     background-color: #CB5737;
     border-radius: 8px;
@@ -103,6 +107,7 @@ nav ul li a {
 
 p {
     margin: 20px 0;
+    font-family: "Open Sans", sans-serif;
 }
 
 .text-sm-b {
@@ -117,23 +122,46 @@ p {
 footer {
     /*display: flex;*/
     background-color:#ffffff;
-    padding: 50px;
+    padding: 40px 200px 0px;
     justify-content: space-evenly;
 }
 
 .article-content {
-    padding-bottom:70px;
+    padding-bottom: 10px;
+}
+
+.author_info {
+    display:flex;
+    padding: 15px 0 15px;
+}
+
+.author_column:first-child {
+    margin-left:8%;
+    flex:30%;
+    padding-top: 10px;
+}
+
+.footer-column:first-child {
+    flex: 70%;
 }
 
 .footer-column {
     flex: 60%;
-    padding-right: 100px;
 }
 
 .footer-row {
     display: flex;
+    justify-content: center;
 }
 
 .footer-logos {
     justify-content: space-between;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.contact_logo {
+    padding-right: 10px;
 }
